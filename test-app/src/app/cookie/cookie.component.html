@@ -1,0 +1,20 @@
+<div class="notification-div alert alert-danger" [hidden] = "displayCookie">
+
+    <p>This Website uses Cookie</p>
+
+    <button type="button" class="btn btn-primary">Submit</button>
+
+</div>
+
+
+<div class = "two-way">
+
+    <span><label>Enter Message : </label></span>
+    <!-- <input type="text" (input)="updateMessage($event)"/>  -->
+    <input type="text" [(ngModel)]="message"/> 
+
+    <br>
+
+    <p>Message : {{message}}</p>
+
+</div>
